@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class roundSwings : MonoBehaviour
 {
-    public Transform tr;
-
-    private void Start()
-    {
-        tr = transform;
-    }
-    void Update()
-    {
-        tr.RotateAround(transform.position, Vector3.up, 10 * Time.deltaTime);
-    }
+    // public Transform tr;
+    // Rigidbody rb;
+    // public float speed;
+    // private void Start()
+    // {
+    //     tr = transform;
+    //     rb = tr.GetComponent<Rigidbody>();
+    // }
+    // void Update()
+    // {
+    //     // tr.RotateAround(transform.position, Vector3.up, 10 * Time.deltaTime);
+    //     rb.AddTorque(new Vector3(0, 1, 0) * speed * Time.deltaTime);
+    // }
 }
